@@ -4,6 +4,11 @@ import main.Key;
 import main.ObscurencyFinder;
 import org.junit.Before;
 
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
+
 import static org.junit.Assert.*;
 
 public class ObscurencyFinderTest {
@@ -51,6 +56,22 @@ public class ObscurencyFinderTest {
         unit.fillTheMapwithOneTripletInfo(1,2,3);
         assertTrue(unit.getMap().containsValue(2));
 
+    }
+
+    @org.junit.Test
+    public void whenFillTheMapThenSequentialNumbersAreUsed(){
+        //1:1-2-3
+        //2:1-2-4
+        //3:1-2-5
+        //4:1-2-6
+        unit.fillWithSequentialNumbers();
+        Map<Key, Integer> testMap = new HashMap<>();
+        testMap.put(new Key(6,6),1);
+        testMap.put(new Key(7,8),1);
+        testMap.put(new Key(8,10),1);
+        testMap.put(new Key(9,12),1);
+
+        assertTrue(unit.getMap().keySet().containsAll(testMap.keySet())&&unit.getMap().values().containsAll(testMap.values()));
     }
 
 

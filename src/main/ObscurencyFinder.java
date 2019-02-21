@@ -45,5 +45,12 @@ public class ObscurencyFinder {
         }
 
     }
+    public void fillWithSequentialNumbers(){
+        for(int a=1;a< N;a++){
+            for (int b=a+1;b < N; b++) {
+                for(int c=b+1;c<N; c++) {
+                    fillTheMapwithOneTripletInfo(a,b,c);
+                }}}
+    }
 
 }
