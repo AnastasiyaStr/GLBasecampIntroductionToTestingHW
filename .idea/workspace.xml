@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="024d7e11-8f3f-49ae-8c8f-fee67ea22b62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/main/ObscurencyFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/main/ObscurencyFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/main/Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/main/Key.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/test/ObscurencyFinderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/test/ObscurencyFinderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Key.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ObscurencyFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ObscurencyFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/ObscurencyFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ObscurencyFinderTest.java" afterDir="false" />
     </list>
@@ -37,23 +38,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="102" />
+          <entry key="java" value="360" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="102" />
+          <entry key="JAVA" value="360" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/ObscurencyFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+            <state relative-caret-position="446">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,17 +65,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Key.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ObscurencyFinderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="276">
+              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +121,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/Key.java" />
-        <option value="$PROJECT_DIR$/src/main/ObscurencyFinder.java" />
         <option value="$PROJECT_DIR$/src/test/ObscurencyFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/ObscurencyFinder.java" />
       </list>
     </option>
   </component>
@@ -120,9 +133,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="269" />
+    <option name="y" value="104" />
     <option name="width" value="1040" />
-    <option name="height" value="735" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,7 +187,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550756206972" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550758008811" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -233,23 +247,11 @@
       <updated>1550738384700</updated>
       <workItem from="1550738388480" duration="1699000" />
       <workItem from="1550750540122" duration="7000" />
-      <workItem from="1550750605823" duration="1925000" />
+      <workItem from="1550750605823" duration="3783000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 14h 06m 30s.xml">
-      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 14h 06m 59s.xml">
-      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 14h 08m 01s.xml">
-      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 14h 08m 29s.xml">
-      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ObscurencyFinderTest - 2019.02.21 at 14h 08m 51s.xml">
       <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
     </history-entry>
@@ -268,12 +270,24 @@
     <history-entry file="ObscurencyFinderTest - 2019.02.21 at 14h 23m 37s.xml">
       <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 15h 50m 46s.xml">
+      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 15h 59m 00s.xml">
+      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 15h 59m 23s.xml">
+      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 16h 02m 17s.xml">
+      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3631000" />
+    <option name="totallyTimeSpent" value="5489000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
@@ -345,25 +359,37 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/Key.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ObscurencyFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ObscurencyFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="276">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ObscurencyFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

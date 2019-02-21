@@ -1,6 +1,8 @@
 package main;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ObscurencyFinder {
@@ -52,5 +54,20 @@ public class ObscurencyFinder {
                     fillTheMapwithOneTripletInfo(a,b,c);
                 }}}
     }
+
+    public List<Integer> findObscureTriplets(){
+        List<Integer> obscure= new ArrayList<>();
+        for(int a=1;a< N;a++){
+            for (int b=a+1;b < N; b++) {
+                for(int c=b+1;c<N; c++){
+
+                        obscure.add(a);
+                        obscure.add(b);
+                        obscure.add(c);
+
+                }}}
+        return obscure;
+    }
+
 
 }

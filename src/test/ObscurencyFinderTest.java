@@ -64,6 +64,7 @@ public class ObscurencyFinderTest {
         //2:1-2-4
         //3:1-2-5
         //4:1-2-6
+
         unit.fillWithSequentialNumbers();
         Map<Key, Integer> testMap = new HashMap<>();
         testMap.put(new Key(6,6),1);
@@ -72,7 +73,13 @@ public class ObscurencyFinderTest {
         testMap.put(new Key(9,12),1);
 
         assertTrue(unit.getMap().keySet().containsAll(testMap.keySet())&&unit.getMap().values().containsAll(testMap.values()));
-    }
 
+    }
+    @org.junit.Test
+    public void whenFindObscureTripletsThenFilledListIsReturned(){
+        unit.fillWithSequentialNumbers();
+        assertTrue(!unit.findObscureTriplets().isEmpty());
+
+    }
 
 }
