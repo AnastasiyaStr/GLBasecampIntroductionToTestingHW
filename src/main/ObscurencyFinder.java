@@ -55,19 +55,39 @@ public class ObscurencyFinder {
                 }}}
     }
 
-    public List<Integer> findObscureTriplets(){
-        List<Integer> obscure= new ArrayList<>();
+    public List<Triplet> findObscureTriplets(){
+        List<Triplet> obscure= new ArrayList<>();
         for(int a=1;a< N;a++){
             for (int b=a+1;b < N; b++) {
                 for(int c=b+1;c<N; c++){
-
-                        obscure.add(a);
-                        obscure.add(b);
-                        obscure.add(c);
-
+                    if(isObscure(a,b,c)) {
+                        obscure.add(new Triplet(a,b,c));
+                    }
                 }}}
         return obscure;
     }
+    public boolean isObscure(int a, int b, int c) {
 
+        key.setProduct(a*b*c);
+        key.setSum(a+b+c);
+        //System.out.println("Product "+a*b*c+" Sum: "+ (a+b+c));
+        if( map.get(key)>1){
+            // System.out.println("a "+a+" b "+b+" c "+c+" Product "+a*b*c+" Sum: "+ (a+b+c));
+            key.setProduct((a+1)*(b+1)*(c+1));
+            key.setSum((a+1)+(b+1)+(c+1));
+            if( map.containsKey(key)&& map.get(key)>1) {
+                key.setProduct((a+2)*(b+2)*(c+2));
+                key.setSum((a+2)+(b+2)+(c+2));
+                if( map.containsKey(key)&&map.get(key)>1) {
+                    key.setProduct((a+3)*(b+3)*(c+3));
+                    key.setSum((a+3)+(b+3)+(c+3));
+                    if( map.containsKey(key)&& map.get(key)>1) {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
 
 }

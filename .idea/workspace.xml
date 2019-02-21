@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="024d7e11-8f3f-49ae-8c8f-fee67ea22b62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/main/Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/main/Key.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/test/ObscurencyFinderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObscureNumbersProblem/test/ObscurencyFinderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Key.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ObscurencyFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ObscurencyFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/ObscurencyFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ObscurencyFinderTest.java" afterDir="false" />
     </list>
@@ -28,35 +25,51 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="360" />
+          <entry key="java" value="499" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="360" />
+          <entry key="JAVA" value="499" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ObscurencyFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="939">
+              <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Triplet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/ObscurencyFinderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            <state relative-caret-position="228">
+              <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +134,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/Key.java" />
-        <option value="$PROJECT_DIR$/src/test/ObscurencyFinderTest.java" />
         <option value="$PROJECT_DIR$/src/main/ObscurencyFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/Triplet.java" />
+        <option value="$PROJECT_DIR$/src/test/ObscurencyFinderTest.java" />
       </list>
     </option>
   </component>
@@ -187,7 +201,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550758008811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550759013584" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -247,17 +261,11 @@
       <updated>1550738384700</updated>
       <workItem from="1550738388480" duration="1699000" />
       <workItem from="1550750540122" duration="7000" />
-      <workItem from="1550750605823" duration="3783000" />
+      <workItem from="1550750605823" duration="5062000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 14h 08m 51s.xml">
-      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 14h 09m 04s.xml">
-      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ObscurencyFinderTest - 2019.02.21 at 14h 14m 32s.xml">
       <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
     </history-entry>
@@ -282,9 +290,15 @@
     <history-entry file="ObscurencyFinderTest - 2019.02.21 at 16h 02m 17s.xml">
       <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 16h 06m 49s.xml">
+      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ObscurencyFinderTest - 2019.02.21 at 16h 19m 08s.xml">
+      <configuration name="ObscurencyFinderTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5489000" />
+    <option name="totallyTimeSpent" value="6768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -357,6 +371,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/ObscurencyFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="939">
+          <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Triplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Key.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -378,18 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ObscurencyFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ObscurencyFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="228">
+          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

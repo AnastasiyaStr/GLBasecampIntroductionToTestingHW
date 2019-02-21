@@ -2,12 +2,10 @@ package test;
 
 import main.Key;
 import main.ObscurencyFinder;
+import main.Triplet;
 import org.junit.Before;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
@@ -79,6 +77,16 @@ public class ObscurencyFinderTest {
     public void whenFindObscureTripletsThenFilledListIsReturned(){
         unit.fillWithSequentialNumbers();
         assertTrue(!unit.findObscureTriplets().isEmpty());
+
+    }
+    @org.junit.Test
+    public void whenFindObscureTripletsThenRulesAreObeyed(){
+        unit.fillWithSequentialNumbers();
+        List<Triplet> obscureTriplets = unit.findObscureTriplets();
+        System.out.println(obscureTriplets);
+        Triplet testTriplet = obscureTriplets.get(0);
+        assertTrue(unit.isObscure(testTriplet.getA(),testTriplet.getB(),testTriplet.getC()));
+       
 
     }
 
