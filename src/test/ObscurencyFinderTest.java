@@ -34,7 +34,14 @@ public class ObscurencyFinderTest {
         assertTrue(unit.getMap().containsKey(new Key(6, 6)));
 
     }
-  
 
+    @org.junit.Test
+    public void whenFillUpTheMapMethodIsCalledThenValueIsAssigned(){
 
+        unit.fillTheMapwithOneTripletInfo(1,2,3);
+        assertTrue(unit.getMap().containsValue(1));
+
+    }
+
+   
 }
