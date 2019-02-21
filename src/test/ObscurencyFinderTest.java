@@ -1,5 +1,6 @@
 package test;
 
+import main.Key;
 import main.ObscurencyFinder;
 import org.junit.Before;
 
@@ -25,4 +26,15 @@ public class ObscurencyFinderTest {
         assertEquals(6,sum);
 
     }
+
+    @org.junit.Test
+    public void whenFillUpTheMapMethodIsCalledThenMapKeysAreSumAndProduct(){
+
+        unit.fillTheMapwithOneTripletInfo(1,2,3);
+        assertTrue(unit.getMap().containsKey(new Key(6, 6)));
+
+    }
+  
+
+
 }
