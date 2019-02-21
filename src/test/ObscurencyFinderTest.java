@@ -43,5 +43,15 @@ public class ObscurencyFinderTest {
 
     }
 
-   
+    @org.junit.Test
+    public void whenFillUpTheMapMethodIsCalledThenValueIsIncremented(){
+        unit.fillTheMapwithOneTripletInfo(1,2,3);
+        assertTrue(unit.getMap().containsValue(1));
+
+        unit.fillTheMapwithOneTripletInfo(1,2,3);
+        assertTrue(unit.getMap().containsValue(2));
+
+    }
+
+
 }

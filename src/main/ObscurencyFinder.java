@@ -36,7 +36,13 @@ public class ObscurencyFinder {
         int product=getProduct(i,i1,i2);
         key.setProduct(product);
         key.setSum(sum);
-        map.put(new Key(sum,product),1);
+        if(map.containsKey(key)) {
+            Integer integer = map.get(key);
+            map.replace(key,integer+1);
+
+        }else{
+            map.put(new Key(sum,product),1);
+        }
 
     }
 
