@@ -86,7 +86,7 @@ public class ObscurencyFinderTest {
         System.out.println(obscureTriplets);
         Triplet testTriplet = obscureTriplets.get(0);
         assertTrue(unit.isObscure(testTriplet.getA(),testTriplet.getB(),testTriplet.getC()));
-       
+
 
     }
 
